@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Priority Test</title>
+
+    <style>
+       
+        .highlight {
+            color: blue;
+            font-size: 20px;
+        }
+
+    
+        #special {
+            color: red;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <p id="special" class="highlight">CSS Priority Test</p>
+    <p class="highlight">This is a highlighted paragraph.</p>
+    <p>This is a normal paragraph.</p>
+
+</body>
+</html>
